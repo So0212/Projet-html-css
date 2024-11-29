@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="../Projet_html_css/projet.css"rel="stylesheet">
+    <link href="../Projet_html_css/info.css"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Accueil</title>
 </head>
 <body>
+    <header>
+        <nav>
+
+            <a class="logo" href ="accueil.html"> 
+                <img src="../Fiestita original/Fiestita.png" alt="logo fiestita">
+            </a>
+            <div class="recherche">
+                <img src="../Fiestita original/loupe4.png" alt="icone loupe">
+                <input type="texte" name="recherche" id="recherche" placeholder="Recherche">
+            </div>
+            <div>    
+                <a href="../Projet_html_css/accueil.html">Accueil</a>    
+                <a href="../Projet_html_css/salle.html">Salle</a>
+                <a href="../Projet_html_css/deco.html">Décoration</a>
+                <a href="../Projet_html_css/info.html">Information</a>
+                <a href="../Projet_html_css/Tarif.html">Tarifs</a>
+            </div>  
+
+        </nav>
+    </header>
+    <main>
+        <section id="contact" class="section-contact">
+            <h2>Contactez nous</h2>
+            <form method="get" action="">
+                <div class="nom-email">
+                    <div class="column">
+                        <label for="Nom">Nom</label>
+                        <input type="texte" name="nom" id="nom" placeholder="Ex : Louis">
+                    </div>
+                    <div class="column">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="djfhrubr85@hotmail.com"> 
+                    </div>
+                </div>    
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" placeholder="Message..." rows="10"></textarea><br>
+                <input type="submit" value="ENVOYER" class="projet">
+            </form>
+        </section>
+        <section class="telephone">
+            <h2>Contactez nous par téléphone</h2>
+            <p>06 54 58 56 52</p>
+        </section>
+        <section class="adresse">    
+                <h2>Venez nous voir à l'agence</h2>
+                <p>65 rue raspail 75014</p>
+        </section>
+        <section class="video">
+            <iframe width="560" height="315" 
+            src="https://youtu.be/uG5V24vIPh8" 
+            title="Vidéo YouTube" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
     
-</body>
+        </section>     
+     </main>
+    <footer>
+        <a class="logo" href ="accueil.html"> 
+            <img src="../Fiestita original/Fiestita.png" alt="logo fiestita">
+        <div>
+            <a href="https://twitter.com/" target="_blank" class="link-icone">
+                <img src="../cours html/image-demo/twitter.png" alt="logo twitter" title="rejoins nous sur twitter" twitter id="logo" >
+            </a>
+            <a href="https://www.instagram.com/"target="_blank"class="link-icone">
+                <img src="../cours html/image-demo/instagram.png" alt="logo instagram" title="rejoins nous sur instagram" instagram >
+            </a>
+        </div>
+    </footer>
+</body>    
+        
 </html>

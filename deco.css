@@ -1,0 +1,29 @@
+h1 {
+  padding-bottom: 60px;
+}
+
+h2 {
+  padding-bottom: 70px;
+}
+
+.intro p{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.thèmes h3 {
+  margin-top: 125px;
+}
+
+.thèmes img {
+    width: 70%;
+    height: 70%;
+    object-fit:fill;
+}
+  
+.thèmes {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 400px 400px 400px 400px 400px;
+      grid-gap: 20px;
+}

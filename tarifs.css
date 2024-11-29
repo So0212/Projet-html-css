@@ -1,0 +1,27 @@
+table {
+    border-collapse:collapse;
+    width: 70%;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+th,
+td {
+    border: 2px solid brown;
+    padding: 15px;
+}
+
+th {
+    font-size: 1.3em;
+}
+
+td {
+    padding: 60px;
+    font-size: 1.2em;
+}
+
+caption {
+    padding-top: 80px;
+}
+

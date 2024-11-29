@@ -3,32 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../Projet html-css/projet.css"rel="stylesheet">
+    <link href="../Projet_html_css/projet.css"rel="stylesheet">
+    <link href="../Projet_html_css/accueil.css"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Accueil</title>
 </head>
 <body>
     <header>
-        <nav class="menu">
+        <nav>
 
             <a class="logo" href ="accueil.html"> 
                 <img src="../Fiestita original/Fiestita.png" alt="logo fiestita">
-            </a>    
-            <a href="/salle.html">Salle</a>
-            <a href="/deco.html">Décoration</a>
-            <a href="/info.html">Information</a>
-            <a href="/prestation">Prestation</a>
-            <div>
-                <img src="../Fiestita original/loupe4.png" alt="icone loupe"> <em>Recherche...</em>
-            </div>    
-        </nav>
+            </a>
+            <div class="recherche">
+                <img src="../Fiestita original/loupe4.png" alt="icone loupe">
+                <input  type="texte" name="recherche" id="recherche" placeholder="Recherche">
+            </div>
+            <div>    
+                <a href="../Projet_html_css/accueil.html">Accueil</a>    
+                <a href="../Projet_html_css/salle.html">Salle</a>
+                <a href="../Projet_html_css/deco.html">Décoration</a>
+                <a href="../Projet_html_css/info.html">Information</a>
+                <a href="../Projet_html_css/Tarif.html">Tarifs</a>
+            </div>  
 
+        </nav>
     </header>
     <main>
-        
+        <section class="presentation">
+            <div>
+                <h1>Vive la fête sans ce prendre la tête</h1>
+                <p>
+                    Marre de devoir faire sa propre décoraction et de chercher une salle en location losqu'on a déjà 
+                    tout le reste à gérer ? pas d'inquiétude nous sommes la pour ça.
+                    Nous sommes une équipe remplis d'imagination et de créativitée afin
+                    de répondre aux multiples choix et envie de nos clients.
+                </p>
+                <a href="../Projet_html_css/info.html" class="orga">UNE FÊTE À ORGANISER ? CONTACTEZ NOUS </a>
+            </div>
+            <img src="../Projet_html_css/file.webp" alt="fete">
+        </section>
+        <section class="equipe">
+            <div>
+                <h2>Qui sommes nous ?</h2>
+                <p>
+                    Fiestita a été créé en 2021 et c'est une équipe de 8 collaborateurs dynamiques qui vous aide à trouver et/ou organiser vos
+                    salles et décorations. Stressant de s'occuper de tout tout seul ? Nous sommes là pour ça. Si vous souhaitez avoir un coup
+                    de main pour la décoration de vos salles, on vous propose un large choix de thèmes que ce soit pour mariages, anniversaires, baptêmes, babyshower, etc.... Si vous cherchez avec difficultés
+                    Une salle de location, nous pouvons vous proposer l'une des nôtres.
+                </p>
+            </div>
+                <img src="../Projet_html_css/equipe.jpg" alt="équipe">
+            <div>
 
+            </div>
+        </section>
     </main>
     <footer>
-            
+        
+            <a class="logo" href ="accueil.html"> 
+                <img src="../Fiestita original/Fiestita.png" alt="logo fiestita">
+            <div>
+                <a href="https://twitter.com/" target="_blank" class="link-icone">
+                    <img src="../cours html/image-demo/twitter.png" alt="logo twitter" title="rejoins nous sur twitter" twitter id="logo" >
+                </a>
+                <a href="https://www.instagram.com/"target="_blank"class="link-icone">
+                    <img src="../cours html/image-demo/instagram.png" alt="logo instagram" title="rejoins nous sur instagram" instagram >
+                </a>
+            </div>
+             
     </footer>
 </body>
 </html>

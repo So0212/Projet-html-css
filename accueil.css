@@ -1,0 +1,56 @@
+.presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.presentation h1 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+.presentation p {
+    margin-bottom: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.presentation div {
+    padding-right: 80px;
+}
+
+.orga {
+    background-color: brown;
+    color: black;
+    border-radius: 50px;
+    padding: 20px 30px;
+    top: 50px;
+    width: 230px;
+    text-align: center;
+    margin-left:210px ;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:flex-start;
+  width: 80%;
+  margin: auto;
+}
+
+.equipe h2 {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.equipe p {
+  margin-bottom: 150px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.equipe div {
+  padding-left: 80px;
+}
